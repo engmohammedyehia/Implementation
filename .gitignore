@@ -101,3 +101,10 @@ sessions/
 vendor/
 config/
 system/
+teamcity-*
+teamcity.lock
+teamcity.pid
+catalina.2018-02-25.log
+host-manager.2018-02-25.log
+localhost.2018-02-25.log
+manager.2018-02-25.log
