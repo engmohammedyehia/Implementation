@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<oauthTokens>
-  <oauthToken scope="repo,write:repo_hook" oauthLogin="engmohammedyehia" userId="1" ttl="-1" token="zxx3b694d385f0a06f1b518caa278cad8a1592d2c3f7a4c1d4d853a4a4ee75520e34d1cec23b9005f31775d03cbe80d301b" createTime="1519581772732" />
-</oauthTokens>
-

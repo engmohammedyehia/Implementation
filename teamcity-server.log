@@ -126,3 +126,7 @@
 [2018-02-25 18:03:11,044]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_type_create: "Trivago :: Build {id=Trivago_Build, internal id=bt1}" was created by "'firefoxegy' (Mohammed Yehia) {id=1}" 
 [2018-02-25 18:03:31,413]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_type_edit_settings: "Trivago :: Build {id=Trivago_Build, internal id=bt1}" build configuration settings were edited ("version before: 1, version after: 2") by "'firefoxegy' (Mohammed Yehia) {id=1}" with comment "1 build step(s) were added to 'Build' build configuration" 
 [2018-02-25 18:08:12,611]   INFO -   jetbrains.buildServer.SERVER - JSP pre-compilation finished, pre-compiled 206 files in 632049ms 
+[2018-02-25 18:11:52,684]   INFO - ity.BuildQueuePriorityOrdering - New item Queued build {Build promotion {promotion id=1, configuration={id=Trivago_Build, internal id=bt1}}, item id=1} with weight 0.00 inserted at the default position 0 in the end of the queue 
+[2018-02-25 18:11:52,884]   INFO - tbrains.buildServer.ACTIVITIES - Build added to queue; Queued build {Build promotion {promotion id=1, configuration={id=Trivago_Build, internal id=bt1}, queued}, triggered by "Git" (##vcsName='jetbrains.git' type='vcs')} 
+[2018-02-25 18:12:36,533]   INFO - l.UsageStatisticsCollectorImpl - Starting usage statistics collection... 
+[2018-02-25 18:13:44,713]   INFO - l.UsageStatisticsCollectorImpl - Finish usage statistics collection, collected in 68178 ms 
