@@ -1,0 +1,8 @@
+[core]
+	symlinks = false
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+	logallrefupdates = false
+[teamcity]
+	remote = https://engmohammedyehia@github.com/engmohammedyehia/trivago

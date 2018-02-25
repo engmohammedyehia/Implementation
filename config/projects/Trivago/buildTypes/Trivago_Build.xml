@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<build-type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="da538ea3-869a-4333-8e4b-8471442f8c4d" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/2017.2/project-config.xsd">
+  <name>Build</name>
+  <description />
+  <settings>
+    <parameters />
+    <build-runners>
+      <runner id="RUNNER_1" name="" type="JPS">
+        <parameters>
+          <param name="iprInfoRunParam" value="&lt;iprInfo path-to-ipr=&quot;&quot; should-load-iml=&quot;true&quot; should-load-run-configurations=&quot;false&quot; should-load-artifacts=&quot;false&quot; /&gt;" />
+          <param name="jvmArgs" value="-Xmx256m" />
+          <param name="teamcity.step.mode" value="default" />
+        </parameters>
+      </runner>
+    </build-runners>
+    <vcs-settings>
+      <vcs-entry-ref root-id="Trivago_HttpsGithubComEngmohammedyehiaTrivagoRefsHeadsMaster" />
+    </vcs-settings>
+    <requirements />
+    <build-triggers>
+      <build-trigger id="vcsTrigger" type="vcsTrigger">
+        <parameters>
+          <param name="branchFilter" value="+:*" />
+          <param name="enableQueueOptimization" value="true" />
+          <param name="quietPeriodMode" value="DO_NOT_USE" />
+        </parameters>
+      </build-trigger>
+    </build-triggers>
+    <cleanup />
+  </settings>
+</build-type>
+
