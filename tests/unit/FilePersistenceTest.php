@@ -52,7 +52,7 @@ class FilePersistenceTest extends PHPUnit\Framework\TestCase
                 $this->assertFileExists($path);
             }
         } catch (\Exception $e) {
-
+            echo $e->getMessage();
         }
     }
 }
