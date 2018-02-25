@@ -89,6 +89,8 @@ crashlytics.properties
 crashlytics-build.properties
 fabric.properties
 
+.idea/jenkinsSettings.xml
+.idea/vcs.xml
 .idea/ProjectTemplate.iml
 .idea/description.html
 .idea/modules.xml
