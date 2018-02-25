@@ -98,3 +98,4 @@ fabric.properties
 .idea/template-meta.xml
 .idea/workspace.xml
 sessions/*
+vendor/*
