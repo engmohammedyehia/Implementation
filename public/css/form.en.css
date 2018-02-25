@@ -1,0 +1,492 @@
+form.appForm {
+    width: 100%;
+    margin: 0 auto;
+}
+
+form.appForm fieldset {
+    padding: 0 10px;
+    box-sizing: border-box;
+    border: solid 1px #e4e4e4;
+    background-color: #fff;
+}
+
+form.appForm fieldset legend {
+    padding: 5px 10px;
+    color: #FFF;
+    background: #408eba;
+    line-height: 1.5;
+}
+
+form.appForm label span.required {
+    color: #F00;
+}
+
+form.appForm.n10,
+form.appForm div.input_wrapper.n10 {
+    width: 10%;
+}
+form.appForm.n15,
+form.appForm div.input_wrapper.n15 {
+    width: 15%;
+}
+form.appForm.n20,
+form.appForm div.input_wrapper.n20 {
+    width: 20%;
+}
+form.appForm.n25,
+form.appForm div.input_wrapper.n25 {
+    width: 25%;
+}
+form.appForm.n30,
+form.appForm div.input_wrapper.n30 {
+    width: 30%;
+}
+form.appForm.n35,
+form.appForm div.input_wrapper.n35 {
+    width: 35%;
+}
+form.appForm.n40,
+form.appForm div.input_wrapper.n40 {
+    width: 40%;
+}
+form.appForm.n45,
+form.appForm div.input_wrapper.n45 {
+    width: 45%;
+}
+form.appForm.n50,
+form.appForm div.input_wrapper.n50 {
+    width: 50%;
+}
+form.appForm.n55,
+form.appForm div.input_wrapper.n55 {
+    width: 55%;
+}
+form.appForm.n60,
+form.appForm div.input_wrapper.n60 {
+    width: 60%;
+}
+form.appForm.n65,
+form.appForm div.input_wrapper.n65 {
+    width: 65%;
+}
+form.appForm.n70,
+form.appForm div.input_wrapper.n70 {
+    width: 70%;
+}
+form.appForm.n75,
+form.appForm div.input_wrapper.n75 {
+    width: 75%;
+}
+form.appForm.n80,
+form.appForm div.input_wrapper.n80 {
+    width: 80%;
+}
+form.appForm.n85,
+form.appForm div.input_wrapper.n85 {
+    width: 85%;
+}
+form.appForm.n90,
+form.appForm div.input_wrapper.n90 {
+    width: 90%;
+}
+form.appForm.n95,
+form.appForm div.input_wrapper.n95 {
+    width: 95%;
+}
+
+form.appForm div.input_wrapper {
+    width: 100%;
+    position: relative;
+    height: 55px;
+    clear: both;
+}
+
+form.appForm div.input_wrapper.n10,
+form.appForm div.input_wrapper.n15,
+form.appForm div.input_wrapper.n20,
+form.appForm div.input_wrapper.n25,
+form.appForm div.input_wrapper.n30,
+form.appForm div.input_wrapper.n35,
+form.appForm div.input_wrapper.n40,
+form.appForm div.input_wrapper.n45,
+form.appForm div.input_wrapper.n50,
+form.appForm div.input_wrapper.n55,
+form.appForm div.input_wrapper.n60,
+form.appForm div.input_wrapper.n65,
+form.appForm div.input_wrapper.n70,
+form.appForm div.input_wrapper.n75,
+form.appForm div.input_wrapper.n80,
+form.appForm div.input_wrapper.n85,
+form.appForm div.input_wrapper.n90,
+form.appForm div.input_wrapper.n95 {
+    float: left;
+    clear: none;
+    box-sizing: border-box;
+}
+
+form.appForm div.input_wrapper.border {
+    border-right: solid 1px #e4e4e4;
+}
+
+form.appForm div.input_wrapper.extra_height {
+    height: 70px;
+}
+
+form.appForm div.input_wrapper.free_height {
+    padding: 10px 0;
+    height: auto;
+}
+
+form.appForm div.input_wrapper_other {
+    width: 100%;
+    position: relative;
+    min-height: 55px;
+    clear: both;
+    border-top: solid 1px transparent;
+    border-bottom: solid 1px #e4e4e4;
+}
+
+div.wrapper div.action_view form.appForm div.input_wrapper_other.up_down_padding {
+    padding: 10px 0;
+}
+
+form.appForm div.input_wrapper_other:last-child {
+    border-bottom: none;
+}
+
+form.appForm div.input_wrapper_other.n10,
+form.appForm div.input_wrapper_other.n15,
+form.appForm div.input_wrapper_other.n20,
+form.appForm div.input_wrapper_other.n25,
+form.appForm div.input_wrapper_other.n30,
+form.appForm div.input_wrapper_other.n35,
+form.appForm div.input_wrapper_other.n40,
+form.appForm div.input_wrapper_other.n45,
+form.appForm div.input_wrapper_other.n50,
+form.appForm div.input_wrapper_other.n55,
+form.appForm div.input_wrapper_other.n60,
+form.appForm div.input_wrapper_other.n65,
+form.appForm div.input_wrapper_other.n70,
+form.appForm div.input_wrapper_other.n75,
+form.appForm div.input_wrapper_other.n80,
+form.appForm div.input_wrapper_other.n85,
+form.appForm div.input_wrapper_other.n90,
+form.appForm div.input_wrapper_other.n95 {
+    float: left;
+    clear: none;
+    box-sizing: border-box;
+}
+
+form.appForm div.input_wrapper_other.n10 {
+    width: 10%;
+}
+form.appForm div.input_wrapper_other.n15 {
+    width: 15%;
+}
+form.appForm div.input_wrapper_other.n20 {
+    width: 20%;
+}
+form.appForm div.input_wrapper_other.n25 {
+    width: 25%;
+}
+form.appForm div.input_wrapper_other.n30 {
+    width: 30%;
+}
+form.appForm div.input_wrapper_other.n35 {
+    width: 35%;
+}
+form.appForm div.input_wrapper_other.n40 {
+    width: 40%;
+}
+form.appForm div.input_wrapper_other.n45 {
+    width: 45%;
+}
+form.appForm div.input_wrapper_other.n50 {
+    width: 50%;
+}
+form.appForm div.input_wrapper_other.n55 {
+    width: 55%;
+}
+form.appForm div.input_wrapper_other.n60 {
+    width: 60%;
+}
+form.appForm div.input_wrapper_other.n65 {
+    width: 65%;
+}
+form.appForm div.input_wrapper_other.n70 {
+    width: 70%;
+}
+form.appForm div.input_wrapper_other.n75 {
+    width: 75%;
+}
+form.appForm div.input_wrapper_other.n80 {
+    width: 80%;
+}
+form.appForm div.input_wrapper_other.n85 {
+    width: 85%;
+}
+form.appForm div.input_wrapper_other.n90 {
+    width: 90%;
+}
+form.appForm div.input_wrapper_other.n95 {
+    width: 95%;
+}
+
+form.appForm div.input_wrapper_other.border {
+    border-right: solid 1px #e4e4e4;
+}
+
+form.appForm div.input_wrapper_other label.radio,
+form.appForm div.input_wrapper_other label.checkbox {
+    margin-right: 10px;
+    height: 20px;
+    display: inline-block;
+    line-height: 1.5;
+    font-size: 0.85em;
+}
+
+form.appForm div.input_wrapper_other label:first-child {
+    display: block;
+    margin: 7px 0;
+    font-size: 0.75em;
+}
+
+form.appForm div.input_wrapper_other label.floated:first-child {
+    color: #408eba;
+}
+
+form.appForm div.input_wrapper_other label.radio div.radio_button,
+form.appForm div.input_wrapper_other label.checkbox div.checkbox_button {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    display: inline-block;
+    cursor: pointer;
+    background: #e4e4e4;
+    float: left;
+    margin-right: 5px;
+}
+
+form.appForm div.input_wrapper_other label.radio.block,
+form.appForm div.input_wrapper_other label.checkbox.block {
+    display: block;
+}
+
+form.appForm div.input_wrapper_other label.radio.block.left,
+form.appForm div.input_wrapper_other label.checkbox.block.left {
+    float: left;
+}
+
+form.appForm div.input_wrapper_other label.checkbox div.checkbox_button {
+    border-radius: 0px;
+}
+
+form.appForm div.input_wrapper_other label.radio:hover div.radio_button,
+form.appForm div.input_wrapper_other label.checkbox:hover div.checkbox_button {
+    background: #ccc;
+}
+
+form.appForm div.input_wrapper_other label.radio input[type=radio]:checked + div.radio_button,
+form.appForm div.input_wrapper_other label.checkbox input[type=checkbox]:checked + div.checkbox_button {
+    background: #408eba;
+}
+
+form.appForm div.input_wrapper_other label.radio input[type=radio]:checked:disabled + div.radio_button,
+form.appForm div.input_wrapper_other label.checkbox input[type=checkbox]:checked:disabled + div.checkbox_button {
+    background: #666;
+}
+
+form.appForm div.input_wrapper_other label.checkbox input[type=checkbox]:checked + div.checkbox_button::after {
+    font-family: FontAwesome;
+    display: inline-block;
+    content: '\f00c';
+    color: #FFF;
+    font-size: 0.9em;
+    margin: 1px;
+    text-align: center;
+}
+
+form.appForm div.input_wrapper_other label.radio input[type=radio],
+form.appForm div.input_wrapper_other label.checkbox input[type=checkbox] {
+    opacity: 1;
+    position: absolute;
+    z-index: -1;
+}
+
+form.appForm div.input_wrapper_other.select {
+    position: relative;
+}
+
+form.appForm div.input_wrapper_other select {
+    background: #f7f7f7;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 0;
+    border: solid 1px #f7f7f7;
+    padding: 5px 15px;
+    line-height: 1.7;
+    display: block;
+    margin-top: 8px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+form.appForm div.input_wrapper_other select:focus {
+    outline: none;
+}
+
+form.appForm div.input_wrapper_other.select::after {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: 'liga';
+    content: 'keyboard_arrow_down';
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+form.appForm div.input_wrapper_other.select.required span.required {
+    content: '*';
+    color: #F00;
+    position: absolute;
+    top: 22px;
+    right: 40px;
+}
+
+form.appForm div.input_wrapper_other textarea {
+    background: #f7f7f7;
+    box-sizing: border-box;
+    width: 100%;
+    border: solid 1px #f7f7f7;
+    display: block;
+    margin: 8px 0;
+    padding: 20px;
+    font-size: 0.85em;
+}
+
+form.appForm div.input_wrapper label {
+    position: absolute;
+    font-size: 0.9em;
+    bottom: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+form.appForm div.input_wrapper label.floated {
+    bottom: 30px;
+    font-size: 0.75em;
+    color: #408eba;
+}
+
+form.appForm div.input_wrapper.extra_height label.floated {
+    bottom: 45px;
+}
+
+form.appForm div.input_wrapper_other.padding {
+    padding-left: 10px;
+}
+
+form.appForm div.input_wrapper_other.full_padding {
+    padding: 0 10px;
+}
+
+form.appForm div.input_wrapper_other.left_padding {
+    padding-right: 10px;
+}
+
+form.appForm div.input_wrapper_other.right_padding {
+    padding-left: 10px;
+}
+
+form.appForm div.input_wrapper_other.no_border {
+    border-bottom: none;
+}
+
+form.appForm div.input_wrapper.padding label {
+    left: 10px;
+}
+
+form.appForm div.input_wrapper input {
+    width: 100%;
+    height: 30px;
+    border-bottom: solid 1px #e4e4e4;
+    position: absolute;
+    background: transparent;
+    font-size: 1em;
+    bottom: 0;
+    transition: all 0.3s ease-in-out;
+    color: #222;
+    box-sizing: border-box;
+    padding: 0 10px 0 0;
+    text-align: left;
+}
+
+form.appForm div.input_wrapper:last-child input {
+    border-bottom: none;
+}
+
+form.appForm div.input_wrapper.padding input {
+    padding: 0 10px;
+}
+
+form.appForm input[type=submit] {
+    width: 80px;
+    font-size: 1em;
+    color: #FFF;
+    padding: 5px;
+    line-height: 1.5;
+    background: #408eba;
+    margin: 10px 0;
+    float: right;
+    clear: both;
+    transition: all 0.3s ease-in-out;
+    box-sizing: border-box;
+    border: solid 1px transparent;
+}
+
+form.appForm input[type=submit]:hover,
+form.appForm input[type=submit]:active,
+form.appForm input[type=submit]:focus {
+    background: #FFF;
+    color: #408eba;
+    border: solid 1px #408eba;
+}
+
+form.appForm div.input_wrapper input:focus {
+    background: none !important;
+    border-bottom: solid 2px #408eba;
+}
+
+form.appForm div.input_wrapper > i {
+    position: absolute;
+    top: 25px;
+    right: 10px;
+    text-align: center;
+    width: 20px;
+    height: 18px;
+    color: #FFF;
+    border-radius: 20px;
+    padding-top: 2px;
+}
+
+form.appForm div.input_wrapper > i.error {
+    background: #900;
+}
+
+form.appForm div.input_wrapper > i.success {
+    background: darkgreen;
+}

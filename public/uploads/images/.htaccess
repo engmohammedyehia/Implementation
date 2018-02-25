@@ -1,0 +1,14 @@
+Options -Indexes
+Options -ExecCGI
+AddHandler cgi-script .php .php3 .php4 .phtml .pl .py .jsp .asp .htm .shtml .sh .cgi
+
+<FilesMatch "\.+">
+        Order Allow,Deny
+        Deny from All
+</FilesMatch>
+
+<FilesMatch "\.(jpe?g|png|gif|ico)$">
+        Order Allow,Deny
+        Allow from All
+        Deny from None
+</FilesMatch>

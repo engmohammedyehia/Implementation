@@ -1,0 +1,369 @@
+/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+    height: 100%;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles: Mohammed Yehia Abdul Mottalib
+   ========================================================================== */
+
+
+@font-face {
+    font-family: 'NeoSansArabic';
+    src: url('fonts/NeoSansArabic.eot?') format('eot'),
+    url('fonts/NeoSansArabic.woff') format('woff'),
+    url('fonts/NeoSansArabic.ttf')  format('truetype'),
+    url('fonts/NeoSansArabic.svg#NeoSansArabic') format('svg');
+}
+
+@font-face {font-family: "Neo Sans Arabic Bold";
+    src: url("fonts/8748f5068427fc51038324b33a9a85dd.eot"); /* IE9*/
+    src: url("fonts/8748f5068427fc51038324b33a9a85dd.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("fonts/8748f5068427fc51038324b33a9a85dd.woff2") format("woff2"), /* chrome、firefox */
+    url("fonts/8748f5068427fc51038324b33a9a85dd.woff") format("woff"), /* chrome、firefox */
+    url("fonts/8748f5068427fc51038324b33a9a85dd.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("fonts/8748f5068427fc51038324b33a9a85dd.svg#Neo Sans Arabic Bold") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {font-family: "Neo Sans Arabic Medium";
+    src: url("fonts/7668f634eb4865a48f04d52ea3fb9b27.eot"); /* IE9*/
+    src: url("fonts/7668f634eb4865a48f04d52ea3fb9b27.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("fonts/7668f634eb4865a48f04d52ea3fb9b27.woff2") format("woff2"), /* chrome、firefox */
+    url("fonts/7668f634eb4865a48f04d52ea3fb9b27.woff") format("woff"), /* chrome、firefox */
+    url("fonts/7668f634eb4865a48f04d52ea3fb9b27.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("fonts/7668f634eb4865a48f04d52ea3fb9b27.svg#Neo Sans Arabic Medium") format("svg"); /* iOS 4.1- */
+}
+
+body {
+    background: #f7f7f7;
+    height: 100%;
+}
+
+html, body, h1, h2, h3, h4, h5, h6, p, pre,
+ul, ol, li, a, img, div, form, input,
+input, textarea, table, tr, th, td, nav,
+footer, header, hgroup, menu, figure, figcaption, time, meter {
+    margin:0;
+    padding: 0;
+    border: none;
+    outline: none;
+    vertical-align: baseline;
+}
+
+h1, h2, h3, h4, h5, h6, p, li, a, input, select,
+textarea, legend, label, th, td, blockquote, q, span, div {
+    font-size: 100%;
+    font-weight: normal;
+    line-height: 1.2;
+    font-family: 'NeoSansArabic' !important;
+    color: #666;
+}
+
+p {
+    line-height: 1.5;
+}
+
+div.wrapper {
+    margin: 0 auto;
+    padding-top: 100px;
+    width: 700px;
+    height: 300px;
+    box-sizing: border-box;
+}
+
+p.message {
+    font-size: 0.95em;
+    background-color: #222;
+    color: #FFF;
+    padding: 5px 10px;
+    line-height: 1.5;
+    margin: 0 0 10px 0;
+    position: relative;
+}
+
+p.message a.closeBtn:link, p.message a.closeBtn:visited {
+    position: absolute;
+    right: 7px;
+    color: inherit;
+    top: 7px;
+}
+
+p.message a:link, p.message a:visited {
+    color: inherit;
+    font-size: inherit;
+}
+
+p.message.t1 {
+    background-color: #68ab68;
+}
+
+p.message.t2 {
+    background-color: #900;
+}
+
+p.message.t3 {
+    background-color: #e2b072;
+}
+
+p.message.t4 {
+    background-color: #537190;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after,
+    *:first-letter,
+    *:first-line {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
