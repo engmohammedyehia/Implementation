@@ -17,4 +17,9 @@ trait Helper
         header('Location: ' . $path);
         exit;
     }
+
+    public function premenantRedirect()
+    {
+        // implement this later
+    }
 }
