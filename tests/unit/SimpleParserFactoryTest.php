@@ -1,5 +1,7 @@
 <?php
-
+/**
+ * Testing SimpleParserFactory Class
+ */
 use PHPMVC\LIB\AppConfig;
 
 class SimpleParserFactoryTest extends PHPUnit\Framework\TestCase
