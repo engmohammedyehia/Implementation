@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <phpunit bootstrap="vendor/autoload.php" colors="true" verbos="true" stopOnFail="false">
+	<formatter type="clover" usefile="false"/>
     <php>
         <ini name="memory_limit" value="-1"/>
     </php>

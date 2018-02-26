@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1519682562">
+  <project timestamp="1519682562">
+    <package name="PHPMVC\Classes">
+      <file name="/Library/WebServer/Documents/trivago/app/classes/filepersistence.php">
+        <class name="PHPMVC\Classes\FilePersistence" namespace="PHPMVC\Classes">
+          <metrics complexity="12" methods="6" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="17" coveredstatements="14" elements="23" coveredelements="17"/>
+        </class>
+        <line num="26" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="28" type="stmt" count="1"/>
+        <line num="29" type="stmt" count="1"/>
+        <line num="30" type="stmt" count="1"/>
+        <line num="35" type="method" name="getFileName" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="37" type="stmt" count="1"/>
+        <line num="43" type="method" name="getData" visibility="private" complexity="1" crap="1" count="1"/>
+        <line num="45" type="stmt" count="1"/>
+        <line num="53" type="method" name="save" visibility="public" complexity="4" crap="4.13" count="1"/>
+        <line num="55" type="stmt" count="1"/>
+        <line num="56" type="stmt" count="1"/>
+        <line num="57" type="stmt" count="1"/>
+        <line num="58" type="stmt" count="1"/>
+        <line num="61" type="stmt" count="0"/>
+        <line num="69" type="method" name="storageDirectoryExists" visibility="private" complexity="3" crap="3.14" count="1"/>
+        <line num="71" type="stmt" count="1"/>
+        <line num="72" type="stmt" count="1"/>
+        <line num="73" type="stmt" count="0"/>
+        <line num="75" type="stmt" count="1"/>
+        <line num="83" type="method" name="storageDirectoryIsWritable" visibility="private" complexity="2" crap="2.15" count="1"/>
+        <line num="85" type="stmt" count="1"/>
+        <line num="86" type="stmt" count="0"/>
+        <line num="88" type="stmt" count="1"/>
+        <metrics loc="89" ncloc="55" classes="1" methods="6" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="17" coveredstatements="14" elements="23" coveredelements="17"/>
+      </file>
+    </package>
+    <package name="PHPMVC\Classes\Mainpulators">
+      <file name="/Library/WebServer/Documents/trivago/app/classes/mainpulators/datafilter.php">
+        <class name="PHPMVC\Classes\Mainpulators\DataFilter" namespace="PHPMVC\Classes\Mainpulators">
+          <metrics complexity="8" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="17" coveredstatements="17" elements="21" coveredelements="21"/>
+        </class>
+        <line num="36" type="method" name="__construct" visibility="public" complexity="2" crap="2" count="3"/>
+        <line num="38" type="stmt" count="3"/>
+        <line num="39" type="stmt" count="1"/>
+        <line num="41" type="stmt" count="2"/>
+        <line num="42" type="stmt" count="2"/>
+        <line num="43" type="stmt" count="2"/>
+        <line num="48" type="method" name="getFilteredData" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="50" type="stmt" count="2"/>
+        <line num="56" type="method" name="getFilters" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="58" type="stmt" count="2"/>
+        <line num="66" type="method" name="filterData" visibility="public" complexity="4" crap="4" count="2"/>
+        <line num="68" type="stmt" count="2"/>
+        <line num="69" type="stmt" count="2"/>
+        <line num="70" type="stmt" count="2"/>
+        <line num="72" type="stmt" count="2"/>
+        <line num="73" type="stmt" count="2"/>
+        <line num="74" type="stmt" count="2"/>
+        <line num="75" type="stmt" count="2"/>
+        <line num="76" type="stmt" count="2"/>
+        <line num="79" type="stmt" count="2"/>
+        <line num="80" type="stmt" count="2"/>
+        <metrics loc="80" ncloc="47" classes="1" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="17" coveredstatements="17" elements="21" coveredelements="21"/>
+      </file>
+      <file name="/Library/WebServer/Documents/trivago/app/classes/mainpulators/datasorter.php">
+        <class name="PHPMVC\Classes\Mainpulators\DataSorter" namespace="PHPMVC\Classes\Mainpulators" fullPackage="PHPMVC" package="PHPMVC">
+          <metrics complexity="8" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="14" elements="18" coveredelements="18"/>
+        </class>
+        <line num="40" type="method" name="__construct" visibility="public" complexity="2" crap="2" count="2"/>
+        <line num="42" type="stmt" count="2"/>
+        <line num="43" type="stmt" count="1"/>
+        <line num="45" type="stmt" count="1"/>
+        <line num="46" type="stmt" count="1"/>
+        <line num="47" type="stmt" count="1"/>
+        <line num="52" type="method" name="getSortedData" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="54" type="stmt" count="1"/>
+        <line num="60" type="method" name="setFilter" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="62" type="stmt" count="1"/>
+        <line num="63" type="stmt" count="1"/>
+        <line num="70" type="method" name="SortData" visibility="public" complexity="4" crap="4" count="1"/>
+        <line num="72" type="stmt" count="1"/>
+        <line num="73" type="stmt" count="1"/>
+        <line num="76" type="stmt" count="1"/>
+        <line num="78" type="stmt" count="1"/>
+        <line num="79" type="stmt" count="1"/>
+        <line num="80" type="stmt" count="1"/>
+        <metrics loc="80" ncloc="40" classes="1" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="14" elements="18" coveredelements="18"/>
+      </file>
+    </package>
+    <package name="PHPMVC\classes\parsers">
+      <file name="/Library/WebServer/Documents/trivago/app/classes/parsers/abstractparser.php">
+        <class name="PHPMVC\classes\parsers\AbstractParser" namespace="PHPMVC\classes\parsers" fullPackage="PHPMVC" package="PHPMVC">
+          <metrics complexity="14" methods="5" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="21" coveredstatements="21" elements="26" coveredelements="26"/>
+        </class>
+        <line num="41" type="method" name="setData" visibility="public" complexity="1" crap="1" count="13"/>
+        <line num="43" type="stmt" count="13"/>
+        <line num="44" type="stmt" count="13"/>
+        <line num="50" type="method" name="setRequiredFields" visibility="public" complexity="2" crap="2" count="13"/>
+        <line num="52" type="stmt" count="13"/>
+        <line num="53" type="stmt" count="13"/>
+        <line num="54" type="stmt" count="13"/>
+        <line num="56" type="stmt" count="13"/>
+        <line num="61" type="method" name="getData" visibility="public" complexity="1" crap="1" count="11"/>
+        <line num="63" type="stmt" count="11"/>
+        <line num="73" type="method" name="prepare" visibility="public" complexity="9" crap="9" count="9"/>
+        <line num="75" type="stmt" count="9"/>
+        <line num="76" type="stmt" count="9"/>
+        <line num="78" type="stmt" count="9"/>
+        <line num="80" type="stmt" count="9"/>
+        <line num="82" type="stmt" count="9"/>
+        <line num="83" type="stmt" count="9"/>
+        <line num="93" type="stmt" count="9"/>
+        <line num="94" type="stmt" count="9"/>
+        <line num="95" type="stmt" count="9"/>
+        <line num="97" type="stmt" count="9"/>
+        <line num="100" type="stmt" count="9"/>
+        <line num="103" type="stmt" count="9"/>
+        <line num="105" type="stmt" count="9"/>
+        <line num="111" type="method" name="getFileExtension" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="113" type="stmt" count="3"/>
+        <metrics loc="114" ncloc="69" classes="1" methods="5" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="21" coveredstatements="21" elements="26" coveredelements="26"/>
+      </file>
+    </package>
+    <file name="/Library/WebServer/Documents/trivago/app/classes/parsers/iparser.php">
+      <metrics loc="14" ncloc="6" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <package name="PHPMVC\Classes\Parsers">
+      <file name="/Library/WebServer/Documents/trivago/app/classes/parsers/jsonparser.php">
+        <class name="PHPMVC\Classes\Parsers\JSONParser" namespace="PHPMVC\Classes\Parsers" fullPackage="PHPMVC" package="PHPMVC">
+          <metrics complexity="2" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="4" elements="6" coveredelements="4"/>
+        </class>
+        <line num="21" type="method" name="parse" visibility="public" complexity="2" crap="2.03" count="5"/>
+        <line num="23" type="stmt" count="5"/>
+        <line num="24" type="stmt" count="5"/>
+        <line num="25" type="stmt" count="5"/>
+        <line num="26" type="stmt" count="5"/>
+        <line num="28" type="stmt" count="0"/>
+        <metrics loc="29" ncloc="17" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="4" elements="6" coveredelements="4"/>
+      </file>
+      <file name="/Library/WebServer/Documents/trivago/app/classes/parsers/simpleparserfactory.php">
+        <class name="PHPMVC\Classes\Parsers\SimpleParserFactory" namespace="PHPMVC\Classes\Parsers" fullPackage="PHPMVC" package="PHPMVC">
+          <metrics complexity="5" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="5" elements="7" coveredelements="5"/>
+        </class>
+        <line num="42" type="method" name="getInstance" visibility="public" complexity="3" crap="3.04" count="1"/>
+        <line num="44" type="stmt" count="1"/>
+        <line num="45" type="stmt" count="1"/>
+        <line num="46" type="stmt" count="1"/>
+        <line num="47" type="stmt" count="1"/>
+        <line num="49" type="stmt" count="0"/>
+        <line num="52" type="stmt" count="1"/>
+        <metrics loc="53" ncloc="28" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="5" elements="7" coveredelements="5"/>
+      </file>
+      <file name="/Library/WebServer/Documents/trivago/app/classes/parsers/xmlparser.php">
+        <class name="PHPMVC\Classes\Parsers\XMLParser" namespace="PHPMVC\Classes\Parsers" fullPackage="PHPMVC" package="PHPMVC">
+          <metrics complexity="4" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="10" elements="12" coveredelements="10"/>
+        </class>
+        <line num="21" type="method" name="parse" visibility="public" complexity="4" crap="4.01" count="2"/>
+        <line num="23" type="stmt" count="2"/>
+        <line num="25" type="stmt" count="2"/>
+        <line num="27" type="stmt" count="2"/>
+        <line num="28" type="stmt" count="2"/>
+        <line num="30" type="stmt" count="2"/>
+        <line num="31" type="stmt" count="2"/>
+        <line num="35" type="stmt" count="2"/>
+        <line num="37" type="stmt" count="2"/>
+        <line num="38" type="stmt" count="2"/>
+        <line num="39" type="stmt" count="2"/>
+        <line num="42" type="stmt" count="0"/>
+        <metrics loc="43" ncloc="31" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="10" elements="12" coveredelements="10"/>
+      </file>
+    </package>
+    <metrics files="8" loc="502" ncloc="293" classes="7" methods="22" coveredmethods="16" conditionals="0" coveredconditionals="0" statements="91" coveredstatements="85" elements="113" coveredelements="101"/>
+  </project>
+</coverage>
