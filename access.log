@@ -11,3 +11,4 @@
 127.0.0.1 - - [26/Feb/2018:23:04:19 +0300] "GET /js/vendor/jquery-1.12.0.min.js HTTP/1.1" 304 - "http://trivago.test/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36"
 127.0.0.1 - - [26/Feb/2018:23:04:19 +0300] "GET /js/helper.js HTTP/1.1" 304 - "http://trivago.test/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36"
 127.0.0.1 - - [26/Feb/2018:23:04:19 +0300] "GET /js/main.js HTTP/1.1" 304 - "http://trivago.test/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36"
+127.0.0.1 - - [27/Feb/2018:01:16:00 +0300] "GET / HTTP/1.1" 200 7494 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36"
