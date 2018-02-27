@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1519682562">
-  <project timestamp="1519682562">
+<coverage generated="1519691454">
+  <project timestamp="1519691454">
     <package name="PHPMVC\Classes">
       <file name="/Library/WebServer/Documents/trivago/app/classes/filepersistence.php">
         <class name="PHPMVC\Classes\FilePersistence" namespace="PHPMVC\Classes">
