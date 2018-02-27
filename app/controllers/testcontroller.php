@@ -9,6 +9,6 @@ class TestController extends AbstractController
 {
     public function defaultAction()
     {
-
+        phpinfo();
     }
 }

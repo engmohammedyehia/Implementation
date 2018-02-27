@@ -6,5 +6,10 @@
     "psr-4" : {
       "PHPMVC\\"  : "app/"
     }
+  },
+  "config": {
+    "platform": {
+      "php": "7.1.4"
+    }
   }
 }
